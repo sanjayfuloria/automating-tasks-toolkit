@@ -120,7 +120,7 @@ export default function App() {
   const netROI = yearlySaving - coworkCost;
 
   return (
-    <div ref={topRef} style={{ fontFamily: "'Segoe UI', system-ui, sans-serif", background: C.cream, minHeight: "100vh", maxWidth: 480, margin: "0 auto" }}>
+    <div ref={topRef} style={{ fontFamily: "'Segoe UI', system-ui, sans-serif", background: C.cream, minHeight: "100vh", maxWidth: 720, margin: "0 auto" }}>
       {/* Header */}
       <div style={{ background: `linear-gradient(135deg, ${C.indigo}, ${C.purple})`, padding: "20px 20px 16px", color: "white" }}>
         <div style={{ fontSize: 11, letterSpacing: 2, textTransform: "uppercase", opacity: 0.7, marginBottom: 4 }}>Workshop Companion</div>
